@@ -1,0 +1,13 @@
+[package]
+authors = ["Tim Fish <tim@timfish.uk>"]
+description = "A basic, cross platform Rust binary to copy files using glob patterns."
+edition = "2018"
+license = "MIT"
+name = "cpy"
+readme = "README.md"
+repository = "https://github.com/timfish/cpy-rs"
+version = "0.1.0"
+
+[dependencies]
+argh = "0.1.4"
+globwalk = "0.7"
